@@ -1,0 +1,15 @@
+{
+  "name": "particle41-interview",
+  "version": "1.0.0",
+  "description": "Solution for particle41 interview assessment",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sree Satya Sitaram Narpareddi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
