@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: particle41
+  labels:
+    app: particle41
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: particle41
+  template:
+    metadata:
+      labels:
+        app: particle41
+    spec:
+      containers:
+        - name: particle41
+          imagePullPolicy: Always
+          image: narsss1234/particle41-interview:latest
+          ports:
+            - containerPort: 3000
