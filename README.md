@@ -24,12 +24,12 @@ The solution has been broken into 4 parts
 * Check `localhost:3000`, we should be able to see the application
 
 Pictures/Screenshots
-```
+
 ![Application index.js](image.png)
 
 ![node index.js](image-1.png)
 
 ![ran locally](image-2.png)
-```
+
 
 # Containerizing the application
