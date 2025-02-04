@@ -1,20 +1,30 @@
 variable "AWS_REGION" {
-  default = "us-east-1"
+  type        = string
+  description = "Give the AWS region where the resources need to be created"
+  default     = "ap-souht-1"
 }
 
 variable "VPC_NAME" {
+  type        = string
+  description = "Give the VPC name"
   default = "vprofile-VPC"
 }
 
 variable "Zone1" {
+  type = string
+  description = "availability zone"
   default = "us-east-1a"
 }
 
 variable "Zone2" {
+  type = string
+  description = "availability zone"
   default = "us-east-1b"
 }
 
 variable "Zone3" {
+  type = string
+  description = "availability zone"
   default = "us-east-1c"
 }
 
@@ -42,5 +52,5 @@ variable "PrivSub2CIDR" {
 variable "clusterName" {
   description = "Name of the EKS cluster"
   type        = string
-  default     = "particle-41-eks"
+  default     = ""
 }
